@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         public boolean isTriangular(){
             double sq = Math.sqrt(value*8+1);
             return (sq - Math.floor(sq)) == 0;
+            // https://en.wikipedia.org/wiki/Square_triangular_number
         }
 
         public boolean isSquared(){
